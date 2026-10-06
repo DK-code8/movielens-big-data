@@ -1,0 +1,44 @@
+# Reports, presentations & archives (code-only portfolio)
+*.pptx
+*.docx
+*.pdf
+*.zip
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Caches
+huggingface_cache/
+my_huggingface_cache/
+.cache/
+
+# OS junk
+__MACOSX/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MovieLens 100K data may not be redistributed - download from GroupLens (see README)
+**/u.*
+**/u[0-9].base
+**/u[0-9].test
+**/ua.*
+**/ub.*
+**/allbut.pl
+**/mku.sh
+**/README
+**/wide_format_ratings.csv
+**/*Presentation.xlsx
